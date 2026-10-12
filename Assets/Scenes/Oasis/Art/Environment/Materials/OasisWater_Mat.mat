@@ -76,6 +76,7 @@ Material:
     - _ColorThickness: 1
     - _Cull: 2
     - _DstBlend: 10
+    - _DstBlendAlpha: 10
     - _EdgeColorStrength: 1
     - _EdgeFade: 0.588
     - _Float: -1.6
@@ -94,6 +95,7 @@ Material:
     - _RefractionDepth: 1
     - _RefractionIntensity: 0.09
     - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
     - _Surface: 1
     - _ThicknessPower: 1
     - _WorkflowMode: 1
