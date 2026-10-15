@@ -14,7 +14,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _EMISSION
-  m_LightmapFlags: 2
+  m_LightmapFlags: 10
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
@@ -50,6 +50,7 @@ Material:
     - Vector1_32e7591798114ff0a50f5848ce5c5f9f: -20
     - _Alpha: 2.39
     - _Alpha_Clip_Threshold: 0
+    - _Cull: 2
     - _Float: 1.47
     - _Foam_Distance: 0.09
     - _Foam_Strength: 1.72
@@ -61,6 +62,8 @@ Material:
     - _QueueControl: 1
     - _QueueOffset: 0
     - _Reflection_Strength: 0.2
+    - _ScreenSpaceReflections: 1
+    - _ScreenSpaceReflectionsContributeTransparent: 1
     - _Shore_Foam_Scale: 5
     - _Smoothness: 0.5
     - _WaterFall_Alpha: 10
@@ -103,4 +106,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 10
+  version: 11

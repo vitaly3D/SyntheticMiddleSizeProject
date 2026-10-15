@@ -10,11 +10,11 @@ Material:
   m_Name: WaterPlane_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 2cda4768a92a71b4d310bb21fd6fa8cb, type: 3}
   m_Parent: {fileID: 2100000, guid: dd9b62e13faf7ab8a5eab85a9bd8b82b, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _EMISSION
-  m_LightmapFlags: 4
+  m_LightmapFlags: 10
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -64,5 +64,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 10
-# Clone04
+  version: 11

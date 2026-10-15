@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 10
+  version: 11
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -27,7 +27,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _EMISSION
-  m_LightmapFlags: 2
+  m_LightmapFlags: 10
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -53,13 +53,16 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha_Clip_Threshold: 0.25
+    - _Cull: 2
     - _Noise_Scale: 4.63
     - _Offset_Speed: 30
     - _QueueControl: 1
     - _QueueOffset: 0
     - _Scale: 5.28
+    - _ScreenSpaceReflectionsContributeTransparent: 1
     - _Smoothness: 0.06
     - _Tiling_Y_speed: 0.005
+    - _WritesColor: 1
     m_Colors:
     - _Ripple_Color: {r: 0.4339623, g: 0.4339623, b: 0.29749614, a: 1}
     - _Ripple_Offset: {r: 9.88, g: 13.71, b: 0, a: 0}
