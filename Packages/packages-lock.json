@@ -25,7 +25,7 @@
       }
     },
     "com.unity.collections": {
-      "version": "7.0.0",
+      "version": "6.7.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {}
@@ -546,8 +546,7 @@
       "dependencies": {
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.modules.imageconversion": "1.0.0"
+        "com.unity.modules.unitywebrequest": "1.0.0"
       }
     },
     "com.unity.modules.wind": {
