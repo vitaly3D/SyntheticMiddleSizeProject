@@ -28,7 +28,12 @@
       "version": "6.7.0",
       "depth": 1,
       "source": "builtin",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.burst": "1.8.25",
+        "com.unity.nuget.mono-cecil": "1.11.6",
+        "com.unity.test-framework": "1.4.6",
+        "com.unity.test-framework.performance": "3.2.0"
+      }
     },
     "com.unity.editorcoroutines": {
       "version": "6.6.0",
@@ -37,7 +42,7 @@
       "dependencies": {}
     },
     "com.unity.ext.nunit": {
-      "version": "2.1.2",
+      "version": "2.1.1",
       "depth": 1,
       "source": "builtin",
       "dependencies": {}
@@ -49,10 +54,12 @@
       "dependencies": {}
     },
     "com.unity.ide.rider": {
-      "version": "3.1.0",
+      "version": "3.0.39",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
@@ -65,7 +72,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "7.0.0",
+      "version": "6.7.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -89,7 +96,7 @@
       "dependencies": {}
     },
     "com.unity.memoryprofiler": {
-      "version": "1.2.0",
+      "version": "1.2.0-pre.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -207,7 +214,7 @@
       }
     },
     "com.unity.splines": {
-      "version": "2.9.2",
+      "version": "2.9.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -226,6 +233,15 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
+    "com.unity.test-framework.performance": {
+      "version": "6.7.0",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
     "com.unity.timeline": {
       "version": "6.7.0",
       "depth": 0,
@@ -238,7 +254,7 @@
       }
     },
     "com.unity.ugui": {
-      "version": "7.0.0",
+      "version": "2.7.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
