@@ -79,9 +79,10 @@ MonoBehaviour:
       - rid: 325595433490186444
       - rid: 325595433490186445
       - rid: 325595433490186446
+      - rid: 8337334336920485890
     m_RuntimeSettings:
       m_List: []
-  m_AssetVersion: 14
+  m_AssetVersion: 17
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
   - Default
@@ -159,7 +160,7 @@ MonoBehaviour:
       type: {class: RenderingCapabilitiesSettings, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
-        m_UseGlobalConstantBuffer: 0
+        m_UsePersistentGlobalConstantBuffer: 0
     - rid: 325595433490186440
       type: {class: UniversalRenderPipelineFilmGrainResources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -191,6 +192,7 @@ MonoBehaviour:
       data:
         m_Version: 1
         m_DepthBiasMode: 0
+        m_NormalBiasMode: 0
     - rid: 325595433490186444
       type: {class: SurfaceCacheRenderPipelineResourceSet, ns: UnityEngine.Rendering, asm: Unity.SurfaceCache.Runtime}
       data:
@@ -405,6 +407,7 @@ MonoBehaviour:
       data:
         m_RasterizationShader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
         m_GTAOComputeShader: {fileID: 7200000, guid: 0e79c0fbcc6ffc642834ff60779ad086, type: 3}
+        m_GTAODepthPrefilterComputeShader: {fileID: 7200000, guid: 42244eac3d92497eb7dd4ad591a29e19, type: 3}
         m_Version: 0
     - rid: 8192678964755693570
       type: {class: PostProcessData/ShaderResources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
@@ -543,6 +546,11 @@ MonoBehaviour:
           - {r: 0.8, g: 1, b: 0.8, a: 1}
           - {r: 0.2, g: 0.4, b: 0.2, a: 1}
           - {r: 0.125, g: 0.22, b: 0.36, a: 1}
+    - rid: 8337334336920485890
+      type: {class: URPLightFalloffSettings, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
+      data:
+        m_Version: 1
+        m_LightFalloffMode: 0
     - rid: 8702753680934305792
       type: {class: RenderGraphUtilsResources, ns: UnityEngine.Rendering.RenderGraphModule.Util, asm: Unity.RenderPipelines.Core.Runtime}
       data:
